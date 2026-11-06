@@ -1,0 +1,52 @@
+{
+  "source": "/System/Library/Desktop Pictures/.wallpapers/Sequoia Sunrise/Sequoia Sunrise.heic",
+  "batch": {
+    "images": 200,
+    "workers": 8,
+    "wall_seconds": 6.4,
+    "images_per_second": 31.25,
+    "peak_rss_mb": 456.1,
+    "summary": {
+      "total": 200,
+      "success": 200,
+      "failed": 0,
+      "skipped": 0,
+      "original_size": 116610400,
+      "output_size": 87092000,
+      "saved_size": 29518400,
+      "ratio": 25.31369414734878,
+      "avg_duration": 0.2508647272849157,
+      "elapsed": 6.283969874999457
+    }
+  },
+  "target_size": {
+    "input_size_kb": 2200.6,
+    "target_kb": 500,
+    "output_size_kb": 496.5,
+    "quality": 35,
+    "image_seconds": 0.524,
+    "wall_seconds": 0.61,
+    "note": ""
+  },
+  "large_file": {
+    "input_size_mb": 94.41,
+    "output_size_mb": 3.54,
+    "wall_seconds": 0.77,
+    "peak_rss_mb": 402.5,
+    "result": {
+      "source": "/Applications/my/git/压缩文件/examples/.benchmark/large_100mb.bmp",
+      "output": "/Applications/my/git/压缩文件/examples/.benchmark/large_output/large_100mb_compressed.jpg",
+      "status": "success",
+      "original_size": 99000054,
+      "output_size": 3715638,
+      "duration": 0.6343922090018168,
+      "format": "JPEG",
+      "quality": 85,
+      "scale": 1.0,
+      "note": "",
+      "error": null,
+      "saved_size": 95284416,
+      "ratio": 96.25
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "source": "/System/Library/Desktop Pictures/.wallpapers/Sequoia Sunrise/Sequoia Sunrise.heic",
+  "width": 1920,
+  "height": 1080,
+  "baseline_jpeg_q95_bytes": 770496,
+  "rows": [
+    {
+      "format": "JPEG q85",
+      "bytes": 460954,
+      "kb": 450.2,
+      "psnr": 36.23,
+      "mode": "RGB",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "format": "WebP q85",
+      "bytes": 357220,
+      "kb": 348.8,
+      "psnr": 36.87,
+      "mode": "RGB",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "format": "PNG 无损",
+      "bytes": 3348290,
+      "kb": 3269.8,
+      "psnr": null,
+      "mode": "RGB",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "format": "BMP",
+      "bytes": 6220854,
+      "kb": 6075.1,
+      "psnr": null,
+      "mode": "RGB",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "format": "TIFF deflate",
+      "bytes": 4961762,
+      "kb": 4845.5,
+      "psnr": null,
+      "mode": "RGB",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "format": "GIF 256 色",
+      "bytes": 1871106,
+      "kb": 1827.3,
+      "psnr": 35.22,
+      "mode": "P",
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ]
+}

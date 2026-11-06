@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image-batch-compressor"
+version = "1.0.0"
+description = "高性能、轻量化的本地批量图片压缩 CLI 工具"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "ImageBatchCompressor Contributors" }]
+keywords = ["image", "compression", "batch", "cli", "pillow"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Multimedia :: Graphics",
+]
+dependencies = ["Pillow>=10.0", "tqdm>=4.66"]
+
+[project.optional-dependencies]
+heif = ["pillow-heif>=0.16"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+build = ["pyinstaller>=6.0"]
+
+[project.scripts]
+image-compress = "image_compressor.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

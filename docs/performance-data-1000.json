@@ -1,0 +1,31 @@
+{
+  "source": "/System/Library/Desktop Pictures/.wallpapers/Sequoia Sunrise/Sequoia Sunrise.heic",
+  "batch": {
+    "images": 1000,
+    "workers": 8,
+    "wall_seconds": 32.17,
+    "images_per_second": 31.08,
+    "peak_rss_mb": 500.2,
+    "summary": {
+      "total": 1000,
+      "success": 1000,
+      "failed": 0,
+      "skipped": 0,
+      "original_size": 583052000,
+      "output_size": 435460000,
+      "saved_size": 147592000,
+      "ratio": 25.31369414734878,
+      "avg_duration": 0.2554238334749425,
+      "elapsed": 31.977905792002275
+    }
+  },
+  "target_size": {
+    "input_size_kb": 2200.6,
+    "target_kb": 500,
+    "output_size_kb": 496.5,
+    "quality": 35,
+    "image_seconds": 0.516,
+    "wall_seconds": 0.62,
+    "note": ""
+  }
+}

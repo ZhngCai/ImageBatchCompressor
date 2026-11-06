@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(python3)",
+      "Exec(ls)",
+      "Exec(uv python)",
+      "Exec(uv venv)",
+      "Exec(.venv/bin/python)",
+      "Exec(PYTHONPATH=src .venv/bin/python)",
+      "Exec(uv pip)",
+      "Exec(.venv/bin/ruff check)",
+      "Exec(.venv/bin/ruff)",
+      "Exec(find)",
+      "Exec(read f)",
+      "Exec(stat)",
+      "Exec(chmod)",
+      "Exec(/usr/bin/time)",
+      "Exec(uname)",
+      "Exec(.venv/bin/image-compress)",
+      "Exec(PYTHON=.venv/bin/python ./packaging/build_macos.sh)",
+      "Exec(dist/image-compress/image-compress)",
+      "Exec(rm)",
+      "Exec(tail)",
+      "Exec(cp)",
+      "Exec(cat)",
+      "Exec(git)",
+      "Exec(grep)",
+      "Exec(sed)",
+      "Exec(mkdir)",
+      "Exec(test)",
+      "Exec(true)"
+    ]
+  }
+}

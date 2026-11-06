@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+output/*
+!output/.gitkeep
+logs/*
+!logs/.gitkeep
+*.egg-info/
+.DS_Store
+examples/.benchmark/
+需求/

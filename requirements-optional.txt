@@ -1,0 +1,2 @@
+# 可选：HEIC / HEIF 支持
+pillow-heif>=0.16
